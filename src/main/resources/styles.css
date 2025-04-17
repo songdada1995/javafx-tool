@@ -1,0 +1,102 @@
+.grid-pane-style {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 10, 0, 0, 3);
+}
+
+.button-style {
+    -fx-background-color: #4a6baf;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.button-style:hover {
+    -fx-background-color: #3a5a9f;
+}
+
+.file-select-button-style {
+    -fx-background-color: #0056b3;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+
+.file-select-button-style:hover {
+    -fx-background-color: #0056b3;
+}
+
+.text-field {
+    -fx-padding: 8px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+
+.text-field:focused {
+    -fx-border-color: #007BFF;
+}
+
+.label {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 3px 0; /* 调小行号与列号这两行标签的上下边距 */
+}
+
+.drag-drop-hint {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 12px;
+    -fx-text-fill: #999;
+}
+
+.error-label {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 12px;
+    -fx-padding: 2px 0;
+}
+
+.description-label {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-padding: 3px 0 25px 0; /* 修改说明文字上方的空白大小，保持和确定按钮下方空白差不多的大小 */
+    -fx-alignment: center;
+}
+
+.sheet-name-label {
+    -fx-padding: 3px 0; /* 让 sheet 名称标签的上边距跟随行、列标签的间距调小 */
+}
+
+.sheet-name-field {
+    -fx-padding: 0 0 25px 0; /* 进一步增大 sheet 名称输入框的下边距，调大文件拖拽框距离 sheet 输入框的间距 */
+}
+
+.drag-drop-pane {
+    -fx-padding: 0 0 10px 0; /* 调小文件拖拽框的下边距，让确定按钮距离上面文件拖拽框的间距和行列的间距一致 */
+}
+
+.confirm-button {
+    -fx-padding: 0 0 3px 0; /* 调小确定按钮下方的间距，保持和行列的间距一致 */
+}
+
+.sheet-name-error-label {
+    -fx-padding: 2px 0; /* 给 sheet 下方的错误信息展示框设置和行、列错误信息展示框一样的上下边距 */
+}
+
+.overlay-pane {
+    -fx-background-color: rgba(0, 0, 0, 0.3);
+    -fx-alignment: center;
+}
+
+.result-label {
+    -fx-padding: 20px;
+    -fx-background-color: white;
+    -fx-border-radius: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 3);
+    -fx-alignment: center;
+}

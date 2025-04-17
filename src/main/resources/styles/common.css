@@ -1,0 +1,107 @@
+/* 整体背景颜色设置为白色 */
+.root {
+    -fx-background-color: white;
+}
+
+/* 通用样式 */
+.label {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 14px;
+    -fx-padding: 3px 0;
+    -fx-text-fill: #333;
+}
+
+.error-label {
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 12px;
+    -fx-padding: 2px 0;
+    -fx-text-fill: #d9534f;
+}
+
+.button-style {
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+    -fx-min-width: 120px;
+}
+
+.button-style:hover {
+    -fx-background-color: #777;
+}
+
+.select-button-style {
+    -fx-background-color: #555;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+    -fx-max-width: 80px;
+}
+
+.select-button-style:hover {
+    -fx-background-color: #777;
+}
+
+.text-field {
+    -fx-padding: 8px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+    -fx-text-fill: #333;
+}
+
+.text-field:focused {
+    -fx-border-color: #999;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+/* 菜单样式，使用暗灰色调 */
+.menu-bar {
+    -fx-background-color: #222;
+    -fx-font-family: 'Open Sans', sans-serif;
+    -fx-font-size: 14px;
+}
+
+.menu-bar .menu {
+    -fx-padding: 5px 10px;
+}
+
+.menu-bar .menu .label {
+    -fx-text-fill: white;
+}
+
+.menu-bar .menu:hover {
+    -fx-background-color: #444;
+}
+
+.menu-bar .menu:showing {
+    -fx-background-color: #444;
+}
+
+.context-menu {
+    -fx-background-color: #222;
+    -fx-padding: 5px 0;
+    -fx-border-width: 0;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 3);
+}
+
+.context-menu .menu-item {
+    -fx-padding: 5px 10px;
+}
+
+.context-menu .menu-item .label {
+    -fx-text-fill: white;
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: #444;
+}
+
+.radio-menu-item:checked .radio {
+    -fx-background-color: white;
+}
