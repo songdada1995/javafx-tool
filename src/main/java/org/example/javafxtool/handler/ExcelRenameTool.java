@@ -75,7 +75,7 @@ public class ExcelRenameTool extends Application {
 
         Label sheetNameLabel = new Label("sheet 名称");
         sheetNameInput = new TextField();
-        sheetNameInput.setPromptText("可选");
+        sheetNameInput.setPromptText("选填，默认提取第1页");
         sheetNameErrorLabel = new Label();
         sheetNameErrorLabel.setTextFill(Color.RED);
         sheetNameErrorLabel.setOpacity(0);
